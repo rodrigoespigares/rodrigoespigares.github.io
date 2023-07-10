@@ -1,12 +1,7 @@
-.cabecera{
-    background-image: url(img/69.jpg);
+.yo{
+    background-image: url(../img/69.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.yo{
     background-color: aliceblue;
     height: 95vh;
     display: flex;
@@ -40,4 +35,9 @@
     50% {
         border-color: transparent;
     }
+}
+.yo p{
+    padding:25px;
+    text-align: center;
+    width: 25%;
 }
