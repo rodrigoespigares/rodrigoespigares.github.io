@@ -1,6 +1,7 @@
 .cabecera{
-   
-
+    background-image: url(img/69.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
