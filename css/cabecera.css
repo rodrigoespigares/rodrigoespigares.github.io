@@ -23,7 +23,7 @@
     border-right: 2px solid;
     width: 33ch;
     font-weight: 200;
-    font-style: italic;
+
     animation: typing 2s steps(32),blink .5s infinite step-end alternate;
     overflow: hidden;
 }
