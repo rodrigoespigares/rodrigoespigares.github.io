@@ -157,52 +157,31 @@
             <form action="https://usebasin.com/f/29c9f5388263" method="POST" id="my-contact-form">
                 <div class="form-row">
                    <div class="input-data">
-                      <input type="text" required>
+                      <input type="text" name="name" required>
                       <div class="underline"></div>
-                      <label for="">Name</label>
+                      <label for="name">Name</label>
                    </div>
                 </div>
                 <div class="form-row">
                    <div class="input-data">
-                      <input type="text" required>
+                      <input type="email" name="email" required>
                       <div class="underline"></div>
-                      <label for="">Email Address</label>
+                      <label for="email">Email Address</label>
                    </div>
                 </div>
                 <div class="form-row">
                 <div class="input-data textarea">
-                   <textarea rows="8" cols="80" required></textarea>
-                   <br />
-                   <div class="underline"></div>
-                   <label for="">Write your message</label>
+                   <textarea name="message"rows="8" cols="80" required></textarea>
+                   <label for="message">Write your message</label>
                    <br />
                    <div class="form-row submit-btn">
                       <div class="input-data">
-                         <div class="inner"></div>
-                         <input type="submit" value="submit">
+                         <button type="submit" id="upload-button">Upload</button>
                          <div id="form-message"></div>
                       </div>
                    </div>
-             </form>
-             <script type="text/javascript">
-                var form = document.getElementById("my-contact-form");
-                var formMessage = document.getElementById("form-message");
-                form.onsubmit = function(event) {
-                event.preventDefault();
-                var formData = new FormData(form);
-                var xhr = new XMLHttpRequest();
-                xhr.open("POST", form.action, true);
-                xhr.send(formData);
-                xhr.onload = function(e) {
-                if (xhr.status === 200) {
-                formMessage.innerHTML = "Success";
-                } else {
-                var response = JSON.parse(xhr.response);
-                formMessage.innerHTML = "Error: " + response.error;
-                }
-                };
-                };
-                </script>
+                </form>
+                <script src="script.js"></script>
         </section>
     </main>
     <footer>
