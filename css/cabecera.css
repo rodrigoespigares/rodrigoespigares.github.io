@@ -10,21 +10,22 @@
     justify-content: center;
 }
 .yo img{
-    max-width: 10%;
+    width: 10%;
     border-radius: 1000px;
     box-shadow: 10px 10px 100px gray;
 }
 .yo h1{
-    margin-top: 2%;
+    margin-top: 5%;
 }
 .yo h3{
     display: block;
     white-space: nowrap;
     border-right: 2px solid;
-    width: 33ch;
+    width: 27ch;
     font-weight: 200;
-    animation: typing 2s steps(32),blink .5s infinite step-end alternate;
+    animation: typing 2s steps(33),blink .5s infinite step-end alternate;
     overflow: hidden;
+    font-style: italic;
 }
 @keyframes typing {
     from{width: 0;}

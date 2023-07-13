@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;1,200&display=swap');
+:root{
+    --fondo:#97dff5;
+    --letra:#002a42;
+}
+footer{
+    background-color: var(--fondo);
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding: 10px;
+}
+footer ul li{
+    list-style: none;
+    padding: 0;
+}
+footer ul a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--letra);
+}
+footer ul a:hover{
+    border-bottom: 1px solid white;
+    color: white;
+    transition: .2s;
+}
+footer h1 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--letra);
+}

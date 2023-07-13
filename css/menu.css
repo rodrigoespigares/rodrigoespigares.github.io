@@ -6,6 +6,7 @@
     top:0;
     padding-right:2%;
     background-color: var(--fondo);
+    z-index: 2;
 }
 .menu ul{
     display: flex;

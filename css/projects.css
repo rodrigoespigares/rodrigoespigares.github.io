@@ -8,12 +8,12 @@
 #project h1{
     display: block;
 }
-.skill{
+.list-project{
     display: flex;
     justify-content: baseline;
     
 }
-.skill a{
+.list-project a{
     text-decoration: none;
 }
 .skill-card {

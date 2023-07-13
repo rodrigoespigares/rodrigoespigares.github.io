@@ -1,0 +1,54 @@
+@media (max-width: 700px) {
+    .menu ul{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        padding: 0;
+    }
+    .yo h1{
+        text-align: center;
+    }
+    .yo img{
+        width: 50% !important;
+    }
+    .yo p{
+        padding: 2px;
+        text-align: center;
+        width: 80%;
+    }
+    #aboutme .skill .icon-container .icon-box{
+        width: 68px !important;
+    }
+    #aboutme .skill .icon-container svg{
+        width: 80% !important;
+    }
+    #aboutme .skill .icon-container h3{
+        font-size: 0.5rem;
+        
+    }
+    .list-project{
+        flex-direction: column !important;
+    }
+    .skill-card{
+        margin-top: 20px;
+    }   
+    #contact .text{
+        font-size: 17px;
+    }
+    footer{
+        display: grid;
+        grid-template-areas: 'titulo titulo'
+                             'copy list';
+    }       
+    footer h1{
+        grid-area: titulo;
+        font-size: medium;
+        text-align: center;
+    }
+    footer p{
+        grid-area: copy;
+    }
+    footer ul{
+        grid-area: list;
+    }
+}
