@@ -4,10 +4,31 @@
     --letra:#002a42;
 }
 footer{
+    display: grid;
+    grid-template-areas: 'titulo titulo'
+                         'copy list';
     background-color: var(--fondo);
     margin-top: 100px;
     margin-bottom: 0;
     padding: 10px;
+}
+footer{
+    display: grid;
+    grid-template-areas: 'titulo titulo'
+                         'copy list';
+}       
+footer h1{
+    grid-area: titulo;
+    font-size: medium;
+    text-align: center;
+}
+footer p{
+    grid-area: copy;
+}
+footer ul{
+    grid-area: list;
+    text-align: right;
+    padding: 0;
 }
 footer ul li{
     list-style: none;
