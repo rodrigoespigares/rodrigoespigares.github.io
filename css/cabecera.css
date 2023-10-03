@@ -21,7 +21,7 @@
     display: block;
     white-space: nowrap;
     border-right: 2px solid;
-    width: 20ch;
+    width: 15ch;
     font-weight: 200;
     animation: typing 2s steps(10),blink .5s infinite step-end alternate;
     overflow: hidden;
@@ -40,4 +40,6 @@
     padding:25px;
     text-align: center;
     width: 25%;
+    font-size: 20px;
+    font-weight: lighter;
 }
