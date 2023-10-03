@@ -21,7 +21,7 @@
     display: block;
     white-space: nowrap;
     border-right: 2px solid;
-    width: 32ch;
+    width: 20ch;
     font-weight: 200;
     animation: typing 2s steps(10),blink .5s infinite step-end alternate;
     overflow: hidden;
