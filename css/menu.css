@@ -10,13 +10,14 @@
 }
 .menu ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width:98%;
     z-index: 1;
 }
 .menu ul li{
     list-style: none;
     text-transform: uppercase;
+    margin: 0 8rem;
 }
 .menu a{
     color: black;
