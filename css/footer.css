@@ -14,6 +14,7 @@ footer{
 }
 footer{
     display: grid;
+    padding: 0 20rem ;
     grid-template-areas: 'titulo titulo'
                          'copy list';
 }       
@@ -24,6 +25,7 @@ footer h1{
 }
 footer p{
     grid-area: copy;
+    align-self: end;
 }
 footer ul{
     grid-area: list;
