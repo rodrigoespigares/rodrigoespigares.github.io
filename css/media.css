@@ -37,8 +37,11 @@
     }
     footer{
         display: grid;
-        grid-template-areas: 'titulo titulo'
-                             'copy list';
+        grid-template-areas: 'titulo'
+                             'list'
+                             'copy';
+        padding: 0;
+        column-gap: 0px !important;
     }       
     footer h1{
         grid-area: titulo;
@@ -47,8 +50,10 @@
     }
     footer p{
         grid-area: copy;
+        text-align: center;
     }
     footer ul{
         grid-area: list;
+        text-align: center;
     }
 }
